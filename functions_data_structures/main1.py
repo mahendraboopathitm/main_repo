@@ -1,4 +1,4 @@
 import module
 
 print(module.greet("Mathesh"))
-print("Square:", module.square(5))
+print("Squares:", module.squares(5))

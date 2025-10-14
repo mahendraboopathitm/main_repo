@@ -1,6 +1,5 @@
 def greet(name):
-    print (f"welcome {name}")
-greet(boopathi)
+    return (f"welcome {name}")
 
 def squares(n):
     print(n*n)
