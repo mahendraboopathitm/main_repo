@@ -15,4 +15,5 @@ print(a)
 print(a.pop("age"))
 print(a.popitem())
 print(a.keys())
-print(a.valus())
+print(a.values())
+
