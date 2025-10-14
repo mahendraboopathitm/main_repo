@@ -133,7 +133,72 @@ Useful for programs requiring repeated user input until a condition is met
 
 <img width="1501" height="294" alt="image" src="https://github.com/user-attachments/assets/b86a9245-a270-4fe8-aa7f-66f6ba7701fd" />
 
+# functions and datastructures
+## list 
 
+A list in Python is a collection of ordered, mutable (changeable), and indexed items.
+Lists are used to store multiple values in a single variable.
+
+Ordered – Elements maintain the order in which they are added.
+Mutable – You can modify elements after creation.
+Allow duplicates – Same value can appear more than once.
+Heterogeneous – Can store different data types together.
+<img width="1847" height="782" alt="Screenshot 2025-10-14 174633 - Copy" src="https://github.com/user-attachments/assets/17ac0a69-29d2-4fcc-8e82-c3747439cc9a" />
+<img width="1847" height="782" alt="Screenshot 2025-10-14 174633" src="https://github.com/user-attachments/assets/987eaf56-695a-4023-b3b9-188e5260b0ef" />
+
+<img width="1898" height="901" alt="Screenshot 2025-10-14 174652" src="https://github.com/user-attachments/assets/7b6c8b41-f5a6-42a0-bb95-9f85a87701a5" />
+
+
+## tuple
+
+A tuple in Python is a collection of ordered and immutable elements.
+It is similar to a list, but once created, the elements cannot be changed (no modification, addition, or deletion).
+
+Ordered – Elements maintain the same sequence.
+Immutable – You cannot modify elements once the tuple is created.
+Allow duplicates – Same value can appear more than once.
+Heterogeneous – Can store different data types.
+
+<img width="1052" height="738" alt="Screenshot 2025-10-14 180618" src="https://github.com/user-attachments/assets/075b5c46-a0d1-4cc5-9cb3-dc14ab139405" />
+
+
+## dictionaries
+
+A dictionary in Python is a collection of key–value pairs.
+It is unordered (in older versions), mutable, and indexed by keys.
+Each key must be unique, and it is used to access the value associated with it.
+
+Mutable – You can add, change, or remove items.
+Unordered (before Python 3.7) – Now it maintains the insertion order.
+Key–Value Mapping – Each value is accessed through its key.
+Unique Keys – No duplicate keys allowed.
+Dynamic – Can grow or shrink in size.
+
+<img width="851" height="470" alt="Screenshot 2025-10-14 181823" src="https://github.com/user-attachments/assets/3536c460-7d44-4857-9893-3a6d4252dd68" />
+<img width="851" height="470" alt="Screenshot 2025-10-14 181823" src="https://github.com/user-attachments/assets/6ddd3b1f-ca34-4263-8515-bf77b98fd973" />
+
+
+<img width="1148" height="861" alt="Screenshot 2025-10-14 173931" src="https://github.com/user-attachments/assets/ccce04cd-da8e-45b6-a8ba-5db188711868" />
+
+<img width="1095" height="421" alt="Screenshot 2025-10-14 174023" src="https://github.com/user-attachments/assets/e973f1db-2f0b-452b-9d3f-87380d3de3cb" />
+
+<img width="1166" height="643" alt="Screenshot 2025-10-14 174031" src="https://github.com/user-attachments/assets/06e801d5-8e08-4308-9234-eec46c4202e8" />
+
+
+
+## set
+
+A set in Python is an unordered collection of unique elements.
+It is mainly used when you want to store multiple items but don’t want duplicates.
+Sets are mutable, but the elements inside must be immutable (like numbers, strings, or tuples).
+
+Unordered – Items don’t have a fixed position or index.
+Unique elements – Duplicate items are automatically removed.
+Mutable – You can add or remove elements.
+Heterogeneous – Can store different data types.
+No indexing or slicing (because sets are unordered).
+
+<img width="1209" height="819" alt="Screenshot 2025-10-14 182902" src="https://github.com/user-attachments/assets/5c513d11-baeb-4785-a06f-1affe0e82be6" />
 
 
 
