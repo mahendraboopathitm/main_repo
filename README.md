@@ -214,6 +214,19 @@ No indexing or slicing (because sets are unordered).
 
 <img width="1209" height="819" alt="Screenshot 2025-10-14 182902" src="https://github.com/user-attachments/assets/5c513d11-baeb-4785-a06f-1affe0e82be6" />
 
+# file handling:
+
+File handling in Python allows you to create, read, write, and delete files — so you can store data permanently (instead of just in memory).
+ r'	Read mode (default). Opens file for reading. Error if file doesn’t exist.
+'w'	Write mode. Creates new file or overwrites existing one.
+'a'	Append mode. Adds data to the end of the file.
+'x'	Create mode. Creates a new file; error if it already exists.
+'r+'Read and write mode. File must exist.
+'b'	Binary mode (for non-text files like images, PDFs, etc.).
+'t'	Text mode (default).
+
+
+# oops concepts
 
 
 
