@@ -267,6 +267,7 @@ In programming, it allows the same function or operator to work differently depe
 Compile-time / Method Overloading (Python does not support traditional method overloading, but we can achieve it using default arguments)
 Run-time / Method Overriding (most common in Python, using inheritance)
 
+<img width="1390" height="848" alt="image" src="https://github.com/user-attachments/assets/20d28427-cd88-4703-8b59-fcdc52c096a7" />
 
 
 # error_handling:
