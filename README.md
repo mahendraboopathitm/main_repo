@@ -259,6 +259,16 @@ Avoid too deep inheritance chains — they make code harder to maintain.
 
 <img width="938" height="497" alt="image" src="https://github.com/user-attachments/assets/0ce602e6-d31b-4f92-8531-c2e0c47c10e6" />
 
+# polymorphism:
+
+Polymorphism means “many forms”.
+In programming, it allows the same function or operator to work differently depending on the object or context.
+
+Compile-time / Method Overloading (Python does not support traditional method overloading, but we can achieve it using default arguments)
+Run-time / Method Overriding (most common in Python, using inheritance)
+
+
+
 # error_handling:
 
 Error Handling is the process of catching and managing errors or exceptions that occur while a program runs.
