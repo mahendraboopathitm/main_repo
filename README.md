@@ -225,9 +225,51 @@ File handling in Python allows you to create, read, write, and delete files — 
 'b'	Binary mode (for non-text files like images, PDFs, etc.).
 't'	Text mode (default).
 
+<img width="1351" height="543" alt="image" src="https://github.com/user-attachments/assets/1593ddad-389c-48c9-ab29-23ed80e99dc8" />
 
-# oops concepts
+# oops concepts:
+OOPs (Object-Oriented Programming System) is a programming approach that organizes code into objects — real-world entities that have data (attributes) and behavior (methods).
 
+Makes code reusable and organized
+Easier to debug and maintain
+Encourages modular programming
+Allows data hiding (security)
+Supports code reusability through inheritance
+
+# class:
+
+A class is a blueprint or template for creating objects.
+Think of it like a plan or design — for example:
+A class is like a blueprint of a car (it describes what a car should have).
+An object is a real car made using that blueprint.
+
+The constructor is a special method in Python classes, named __init__().
+It runs automatically whenever you create an object.
+
+<img width="1654" height="822" alt="image" src="https://github.com/user-attachments/assets/b404f657-2750-459d-82c8-c32ae8e45867" />
+
+# inheritence:
+
+Inheritance means one class can use the properties and methods of another class.
+It helps in code reusability — you don’t need to write the same code again and again.
+Inheritance improves code reusability.
+Child class can override parent methods.
+super() lets you access parent methods inside child class.
+Avoid too deep inheritance chains — they make code harder to maintain.
+
+<img width="938" height="497" alt="image" src="https://github.com/user-attachments/assets/0ce602e6-d31b-4f92-8531-c2e0c47c10e6" />
+
+# error_handling:
+
+Error Handling is the process of catching and managing errors or exceptions that occur while a program runs.
+Without error handling, your program stops abruptly if an error occurs. With error handling, you can gracefully handle errors and continue execution.
+
+Always handle expected errors (like division by zero, file not found).
+Use finally to release resources (like closing files).
+Use raise to throw custom exceptions when needed.
+Don’t use bare except: in production — catch specific exceptions.
+
+<img width="1363" height="525" alt="image" src="https://github.com/user-attachments/assets/637d81dd-65b6-45fc-a5d6-dfebedc8b512" />
 
 
 
