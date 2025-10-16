@@ -200,6 +200,7 @@ No indexing or slicing (because sets are unordered).
 
 <img width="1209" height="819" alt="Screenshot 2025-10-14 182902" src="https://github.com/user-attachments/assets/5c513d11-baeb-4785-a06f-1affe0e82be6" />
 
+<<<<<<< HEAD
 # file handling:
 
 File handling in Python allows you to create, read, write, and delete files — so you can store data permanently (instead of just in memory).
@@ -288,6 +289,9 @@ Pauses the function state and resumes on the next call.
 Think of it as a lazy iterator
 
 <img width="1464" height="555" alt="Screenshot 2025-10-16 180642" src="https://github.com/user-attachments/assets/9514b515-787b-40e9-a84e-e9a652d8dd18" />
+=======
+
+>>>>>>> b0305fd (files added)
 
 
 
