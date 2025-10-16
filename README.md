@@ -200,13 +200,115 @@ No indexing or slicing (because sets are unordered).
 
 <img width="1209" height="819" alt="Screenshot 2025-10-14 182902" src="https://github.com/user-attachments/assets/5c513d11-baeb-4785-a06f-1affe0e82be6" />
 
+# file handling:
+
+File handling in Python allows you to create, read, write, and delete files — so you can store data permanently (instead of just in memory).
+ r'	Read mode (default). Opens file for reading. Error if file doesn’t exist.
+'w'	Write mode. Creates new file or overwrites existing one.
+'a'	Append mode. Adds data to the end of the file.
+'x'	Create mode. Creates a new file; error if it already exists.
+'r+'Read and write mode. File must exist.
+'b'	Binary mode (for non-text files like images, PDFs, etc.).
+'t'	Text mode (default).
+
+<img width="1351" height="543" alt="image" src="https://github.com/user-attachments/assets/1593ddad-389c-48c9-ab29-23ed80e99dc8" />
+
+# oops concepts:
+OOPs (Object-Oriented Programming System) is a programming approach that organizes code into objects — real-world entities that have data (attributes) and behavior (methods).
+
+Makes code reusable and organized
+Easier to debug and maintain
+Encourages modular programming
+Allows data hiding (security)
+Supports code reusability through inheritance
+
+# class:
+
+A class is a blueprint or template for creating objects.
+Think of it like a plan or design — for example:
+A class is like a blueprint of a car (it describes what a car should have).
+An object is a real car made using that blueprint.
+
+The constructor is a special method in Python classes, named __init__().
+It runs automatically whenever you create an object.
+
+<img width="1654" height="822" alt="image" src="https://github.com/user-attachments/assets/b404f657-2750-459d-82c8-c32ae8e45867" />
+
+# inheritence:
+
+Inheritance means one class can use the properties and methods of another class.
+It helps in code reusability — you don’t need to write the same code again and again.
+Inheritance improves code reusability.
+Child class can override parent methods.
+super() lets you access parent methods inside child class.
+Avoid too deep inheritance chains — they make code harder to maintain.
+
+<img width="938" height="497" alt="image" src="https://github.com/user-attachments/assets/0ce602e6-d31b-4f92-8531-c2e0c47c10e6" />
+
+# polymorphism:
+
+Polymorphism means “many forms”.
+In programming, it allows the same function or operator to work differently depending on the object or context.
+
+Compile-time / Method Overloading (Python does not support traditional method overloading, but we can achieve it using default arguments)
+Run-time / Method Overriding (most common in Python, using inheritance)
+
+<img width="1390" height="848" alt="image" src="https://github.com/user-attachments/assets/20d28427-cd88-4703-8b59-fcdc52c096a7" />
 
 
+# error_handling:
+
+Error Handling is the process of catching and managing errors or exceptions that occur while a program runs.
+Without error handling, your program stops abruptly if an error occurs. With error handling, you can gracefully handle errors and continue execution.
+
+Always handle expected errors (like division by zero, file not found).
+Use finally to release resources (like closing files).
+Use raise to throw custom exceptions when needed.
+Don’t use bare except: in production — catch specific exceptions.
+
+<img width="1701" height="952" alt="image" src="https://github.com/user-attachments/assets/83af7ef4-1473-476c-9a0f-182f06ec7643" />
 
 
+# decorators:
+
+A decorator is a function that takes another function as input and extends or modifies its behavior without changing the original function’s code.
+Think of it like wrapping a gift: the wrapper adds extra features without changing what’s inside.
+Add functionality to existing functions dynamically.
+Avoid code repetition (e.g., logging, authentication, timing).
+Keep code clean and maintainable.
+
+<img width="1464" height="555" alt="image" src="https://github.com/user-attachments/assets/5cdee683-a100-4bb3-b61b-d76de6b45675" />
+
+# generators:
+
+A generator is a special kind of function that produces items one at a time and does not store the entire sequence in memory.
+Uses the yield keyword instead of return.
+Pauses the function state and resumes on the next call.
+Think of it as a lazy iterator
+
+<img width="1591" height="785" alt="image" src="https://github.com/user-attachments/assets/f13e6c04-8ec7-4fe1-b179-c55d02e9bfe3" />
 
 
+# lambda functions:
+
+A lambda function is a small anonymous function defined without a name.
+Can take any number of arguments but only one expression.
+Automatically returns the value of the expression.
+Often used with higher-order functions like map(), filter(), and reduce().
+
+<img width="1640" height="917" alt="image" src="https://github.com/user-attachments/assets/979f92f6-ddc4-4938-ab5f-a93a23d86034" />
 
 
+# higher order functions:
+
+A higher-order function is a function that can either:
+Take another function as an argument, or
+Return a function as a result
+In simple words: functions that operate on other functions.
+Makes code more modular and reusable.
+Useful for functional programming.
+Commonly used with lambda functions, map, filter, and reduce.
+
+<img width="1640" height="917" alt="Screenshot 2025-10-16 180857" src="https://github.com/user-attachments/assets/a71800f3-c237-44ac-8af7-62a9962eb6bb" />
 
 
