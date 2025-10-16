@@ -134,20 +134,6 @@ Useful for programs requiring repeated user input until a condition is met
 <img width="1501" height="294" alt="image" src="https://github.com/user-attachments/assets/b86a9245-a270-4fe8-aa7f-66f6ba7701fd" />
 
 # functions and datastructures
-## functions:
-
-A function is a block of reusable code that performs a specific task.
-It helps make your code more organized, readable, and reusable.
-
-<img width="1335" height="233" alt="image" src="https://github.com/user-attachments/assets/b0c92b2d-5b53-4d7d-a98e-52897158c504" />
-
-# modules and pakages:
-
-A module is a Python file (.py) that contains functions, variables, or classes you can reuse in other programs.
-
-<img width="1366" height="677" alt="image" src="https://github.com/user-attachments/assets/b2347a82-52c3-41dc-a52d-d9576fab022a" />
-
-
 ## list 
 
 A list in Python is a collection of ordered, mutable (changeable), and indexed items.
@@ -214,72 +200,7 @@ No indexing or slicing (because sets are unordered).
 
 <img width="1209" height="819" alt="Screenshot 2025-10-14 182902" src="https://github.com/user-attachments/assets/5c513d11-baeb-4785-a06f-1affe0e82be6" />
 
-# file handling:
 
-File handling in Python allows you to create, read, write, and delete files — so you can store data permanently (instead of just in memory).
- r'	Read mode (default). Opens file for reading. Error if file doesn’t exist.
-'w'	Write mode. Creates new file or overwrites existing one.
-'a'	Append mode. Adds data to the end of the file.
-'x'	Create mode. Creates a new file; error if it already exists.
-'r+'Read and write mode. File must exist.
-'b'	Binary mode (for non-text files like images, PDFs, etc.).
-'t'	Text mode (default).
-
-<img width="1351" height="543" alt="image" src="https://github.com/user-attachments/assets/1593ddad-389c-48c9-ab29-23ed80e99dc8" />
-
-# oops concepts:
-OOPs (Object-Oriented Programming System) is a programming approach that organizes code into objects — real-world entities that have data (attributes) and behavior (methods).
-
-Makes code reusable and organized
-Easier to debug and maintain
-Encourages modular programming
-Allows data hiding (security)
-Supports code reusability through inheritance
-
-# class:
-
-A class is a blueprint or template for creating objects.
-Think of it like a plan or design — for example:
-A class is like a blueprint of a car (it describes what a car should have).
-An object is a real car made using that blueprint.
-
-The constructor is a special method in Python classes, named __init__().
-It runs automatically whenever you create an object.
-
-<img width="1654" height="822" alt="image" src="https://github.com/user-attachments/assets/b404f657-2750-459d-82c8-c32ae8e45867" />
-
-# inheritence:
-
-Inheritance means one class can use the properties and methods of another class.
-It helps in code reusability — you don’t need to write the same code again and again.
-Inheritance improves code reusability.
-Child class can override parent methods.
-super() lets you access parent methods inside child class.
-Avoid too deep inheritance chains — they make code harder to maintain.
-
-<img width="938" height="497" alt="image" src="https://github.com/user-attachments/assets/0ce602e6-d31b-4f92-8531-c2e0c47c10e6" />
-
-# polymorphism:
-
-Polymorphism means “many forms”.
-In programming, it allows the same function or operator to work differently depending on the object or context.
-
-Compile-time / Method Overloading (Python does not support traditional method overloading, but we can achieve it using default arguments)
-Run-time / Method Overriding (most common in Python, using inheritance)
-
-
-
-# error_handling:
-
-Error Handling is the process of catching and managing errors or exceptions that occur while a program runs.
-Without error handling, your program stops abruptly if an error occurs. With error handling, you can gracefully handle errors and continue execution.
-
-Always handle expected errors (like division by zero, file not found).
-Use finally to release resources (like closing files).
-Use raise to throw custom exceptions when needed.
-Don’t use bare except: in production — catch specific exceptions.
-
-<img width="1363" height="525" alt="image" src="https://github.com/user-attachments/assets/637d81dd-65b6-45fc-a5d6-dfebedc8b512" />
 
 
 
