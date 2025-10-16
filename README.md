@@ -134,20 +134,6 @@ Useful for programs requiring repeated user input until a condition is met
 <img width="1501" height="294" alt="image" src="https://github.com/user-attachments/assets/b86a9245-a270-4fe8-aa7f-66f6ba7701fd" />
 
 # functions and datastructures
-## functions:
-
-A function is a block of reusable code that performs a specific task.
-It helps make your code more organized, readable, and reusable.
-
-<img width="1335" height="233" alt="image" src="https://github.com/user-attachments/assets/b0c92b2d-5b53-4d7d-a98e-52897158c504" />
-
-# modules and pakages:
-
-A module is a Python file (.py) that contains functions, variables, or classes you can reuse in other programs.
-
-<img width="1366" height="677" alt="image" src="https://github.com/user-attachments/assets/b2347a82-52c3-41dc-a52d-d9576fab022a" />
-
-
 ## list 
 
 A list in Python is a collection of ordered, mutable (changeable), and indexed items.
@@ -280,7 +266,6 @@ Use finally to release resources (like closing files).
 Use raise to throw custom exceptions when needed.
 Don’t use bare except: in production — catch specific exceptions.
 
-<img width="1363" height="525" alt="image" src="https://github.com/user-attachments/assets/637d81dd-65b6-45fc-a5d6-dfebedc8b512" />
 
 
 
