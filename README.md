@@ -266,12 +266,49 @@ Use finally to release resources (like closing files).
 Use raise to throw custom exceptions when needed.
 Don’t use bare except: in production — catch specific exceptions.
 
+<img width="1701" height="952" alt="image" src="https://github.com/user-attachments/assets/83af7ef4-1473-476c-9a0f-182f06ec7643" />
 
 
+# decorators:
+
+A decorator is a function that takes another function as input and extends or modifies its behavior without changing the original function’s code.
+Think of it like wrapping a gift: the wrapper adds extra features without changing what’s inside.
+Add functionality to existing functions dynamically.
+Avoid code repetition (e.g., logging, authentication, timing).
+Keep code clean and maintainable.
+
+<img width="1464" height="555" alt="image" src="https://github.com/user-attachments/assets/5cdee683-a100-4bb3-b61b-d76de6b45675" />
+
+# generators:
+
+A generator is a special kind of function that produces items one at a time and does not store the entire sequence in memory.
+Uses the yield keyword instead of return.
+Pauses the function state and resumes on the next call.
+Think of it as a lazy iterator
+
+<img width="1591" height="785" alt="image" src="https://github.com/user-attachments/assets/f13e6c04-8ec7-4fe1-b179-c55d02e9bfe3" />
 
 
+# lambda functions:
+
+A lambda function is a small anonymous function defined without a name.
+Can take any number of arguments but only one expression.
+Automatically returns the value of the expression.
+Often used with higher-order functions like map(), filter(), and reduce().
+
+<img width="1640" height="917" alt="image" src="https://github.com/user-attachments/assets/979f92f6-ddc4-4938-ab5f-a93a23d86034" />
 
 
+# higher order functions:
 
+A higher-order function is a function that can either:
+Take another function as an argument, or
+Return a function as a result
+In simple words: functions that operate on other functions.
+Makes code more modular and reusable.
+Useful for functional programming.
+Commonly used with lambda functions, map, filter, and reduce.
+
+<img width="1640" height="917" alt="Screenshot 2025-10-16 180857" src="https://github.com/user-attachments/assets/a71800f3-c237-44ac-8af7-62a9962eb6bb" />
 
 
