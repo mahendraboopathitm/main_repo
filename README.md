@@ -314,5 +314,14 @@ Commonly used with lambda functions, map, filter, and reduce.
 
 <img width="1640" height="917" alt="Screenshot 2025-10-16 180857" src="https://github.com/user-attachments/assets/91c4004f-e7eb-4908-8276-e83f09bec469" />
 
+# unit testing:
 
+Unit testing means testing individual parts (units) of your code — like a function or class — to check if they work correctly independently.
+Think of it like checking each small machine part before assembling the full machine
 
+Detect bugs early
+Make code changes safely
+Automate testing before deployment
+Document intended behavior of your code
+
+<img width="1599" height="904" alt="image" src="https://github.com/user-attachments/assets/92aa86f1-f3f3-454b-93db-3ba61a56eb71" />
