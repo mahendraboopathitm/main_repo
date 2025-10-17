@@ -277,7 +277,8 @@ Add functionality to existing functions dynamically.
 Avoid code repetition (e.g., logging, authentication, timing).
 Keep code clean and maintainable.
 
-<img width="1464" height="555" alt="image" src="https://github.com/user-attachments/assets/5cdee683-a100-4bb3-b61b-d76de6b45675" />
+<img width="1611" height="836" alt="Screenshot 2025-10-16 180530" src="https://github.com/user-attachments/assets/88d72a4a-b57e-49e9-9a10-4b7aad1e68b8" />
+
 
 # generators:
 
@@ -286,7 +287,8 @@ Uses the yield keyword instead of return.
 Pauses the function state and resumes on the next call.
 Think of it as a lazy iterator
 
-<img width="1591" height="785" alt="image" src="https://github.com/user-attachments/assets/f13e6c04-8ec7-4fe1-b179-c55d02e9bfe3" />
+<img width="1464" height="555" alt="Screenshot 2025-10-16 180642" src="https://github.com/user-attachments/assets/9514b515-787b-40e9-a84e-e9a652d8dd18" />
+
 
 
 # lambda functions:
@@ -296,7 +298,8 @@ Can take any number of arguments but only one expression.
 Automatically returns the value of the expression.
 Often used with higher-order functions like map(), filter(), and reduce().
 
-<img width="1640" height="917" alt="image" src="https://github.com/user-attachments/assets/979f92f6-ddc4-4938-ab5f-a93a23d86034" />
+<img width="1591" height="785" alt="Screenshot 2025-10-16 180747" src="https://github.com/user-attachments/assets/010b885e-fcce-47cf-9fd4-c0832bbf2458" />
+
 
 
 # higher order functions:
@@ -309,6 +312,7 @@ Makes code more modular and reusable.
 Useful for functional programming.
 Commonly used with lambda functions, map, filter, and reduce.
 
-<img width="1640" height="917" alt="Screenshot 2025-10-16 180857" src="https://github.com/user-attachments/assets/a71800f3-c237-44ac-8af7-62a9962eb6bb" />
+<img width="1640" height="917" alt="Screenshot 2025-10-16 180857" src="https://github.com/user-attachments/assets/91c4004f-e7eb-4908-8276-e83f09bec469" />
+
 
 
