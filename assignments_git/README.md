@@ -50,7 +50,12 @@ git add,commit,push the files to remote repositories
 
 ## Git hooks:
 
+<img width="1656" height="510" alt="image" src="https://github.com/user-attachments/assets/e3ddeecf-27e8-4802-92b7-1b7c0334e9a7" />
 
+## Submodules:
+
+A Git submodule allows you to include one Git repository inside another Git repository as a sub-folder.
+It’s used when you want to reuse code from another project but keep both repositories separate.
 
 
 
