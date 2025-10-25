@@ -57,9 +57,12 @@ git add,commit,push the files to remote repositories
 A Git submodule allows you to include one Git repository inside another Git repository as a sub-folder.
 It’s used when you want to reuse code from another project but keep both repositories separate.
 
+<img width="1242" height="817" alt="image" src="https://github.com/user-attachments/assets/eedd44dd-7e91-45e1-be7c-fa5df8b6181a" />
 
+<img width="1130" height="452" alt="image" src="https://github.com/user-attachments/assets/c482ca26-7d77-42f1-a9aa-0a03b48a3a27" />
 
+## Cherry pick :
 
+git cherry-pick is used to apply a specific commit (or a few commits) from one branch onto another branch — without merging the entire branch.
 
-
-
+<img width="1503" height="816" alt="image" src="https://github.com/user-attachments/assets/160d979a-349a-40f7-a7e2-68a6df89d337" />
