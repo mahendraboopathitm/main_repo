@@ -254,6 +254,20 @@ Compile-time / Method Overloading (Python does not support traditional method ov
 Run-time / Method Overriding (most common in Python, using inheritance)
 
 <img width="1390" height="848" alt="image" src="https://github.com/user-attachments/assets/20d28427-cd88-4703-8b59-fcdc52c096a7" />
+<<<<<<< HEAD
+=======
+
+
+# error_handling:
+
+Error Handling is the process of catching and managing errors or exceptions that occur while a program runs.
+Without error handling, your program stops abruptly if an error occurs. With error handling, you can gracefully handle errors and continue execution.
+
+Always handle expected errors (like division by zero, file not found).
+Use finally to release resources (like closing files).
+Use raise to throw custom exceptions when needed.
+Don’t use bare except: in production — catch specific exceptions.
+>>>>>>> f39bba07de936ead9d4405c3883f99fd4aaa9fdf
 
 
 # error_handling:
