@@ -1,7 +1,7 @@
 a={"name":"boopathi","age":22,"pos":"intern"}
 print(a)
 
-b=dict(name="mathesh",age=22,pos="intern")
+b=dict(name="matheshhhh",age=22,pos="intern")
 print(b)
 for i,j in a.items():
     print(a[i])
