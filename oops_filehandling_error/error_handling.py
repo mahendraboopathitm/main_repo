@@ -4,8 +4,8 @@ try:
     print(a)
 except ZeroDivisionError:
     print("cannot divided by zero")
-except ValueError:
-    print("give the valid integer")    
+# except ValueError:
+#     print("give the valid integer")    
 try:
     a = int(input())
     print("Result:", 10 / a)
