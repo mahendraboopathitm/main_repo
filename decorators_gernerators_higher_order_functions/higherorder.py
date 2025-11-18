@@ -7,5 +7,5 @@ print(evens)
 from functools import reduce
 
 nums = [1, 2, 3, 4]
-sum_total = reduce(lambda x, y: x + y, nums)
+sum_total = reduce(lambda a, b: a + b, nums)
 print(sum_total)  

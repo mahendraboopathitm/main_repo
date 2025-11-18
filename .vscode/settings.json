@@ -1,0 +1,8 @@
+{
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+            { "text": "Use conventional commit format with type: feat, fix, refactor, docs, style, test, chore." },
+    { "text": "Mention the filename and one-line summary of what changed." },
+    { "text": "Keep commit messages short and clean." }
+
+    ]
+}
