@@ -23,11 +23,11 @@ print("Reverse of 'Python':", reverse("Python"))
 
 # 6. Using with map()
 nums = [1, 2, 3, 4]
-squares = list(map(lambda x: x**2, nums))
-print("Squares of [1,2,3,4]:", squares)
+square = list(map(lambda x: x**2, nums))
+print("Squares of [1,2,3,4]:", square)
 
 # 7. Using with filter()
 nums = [1, 2, 3, 4, 5, 6]
-evens = list(filter(lambda x: x % 2 == 0, nums))
-print("Even numbers in [1-6]:", evens)
+even= list(filter(lambda x: x % 2 == 0, nums))
+print("Even numbers in [1-6]:", even)
 
