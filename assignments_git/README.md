@@ -66,3 +66,5 @@ It’s used when you want to reuse code from another project but keep both repos
 git cherry-pick is used to apply a specific commit (or a few commits) from one branch onto another branch — without merging the entire branch.
 
 <img width="1503" height="816" alt="image" src="https://github.com/user-attachments/assets/160d979a-349a-40f7-a7e2-68a6df89d337" />
+
+t
