@@ -28,6 +28,6 @@ print("Squares of [1,2,3,4]:", square)
 
 # 7. Using with filter()
 nums = [1, 2, 3, 4, 5, 6]
-even= list(filter(lambda x: x % 2 == 0, nums))
-print("Even numbers in [1-6]:", even)
+odd= list(filter(lambda x: x % 2 == 1, nums))
+print("Even numbers in [1-6]:", odd)
 
