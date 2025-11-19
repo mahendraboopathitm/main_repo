@@ -17,9 +17,9 @@ print("Square of 4:", square(4))
 even_odd = lambda x: "Even" if x % 2 == 0 else "Odd"
 print("11 is:", even_odd(11))
 
-# 5. Reverse a String
-reverse = lambda s: s[::-1]
-print("Reverse of 'Python':", reverse("Python"))
+# # 5. Reverse a String
+# reverse = lambda s: s[::-1]
+# print("Reverse of 'Python':", reverse("Python"))
 
 # 6. Using with map()
 nums = [1, 2, 3, 4]
