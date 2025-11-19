@@ -11,5 +11,5 @@ class Tester(Employee):
         print("Tester tests the software")
 
 # Different child classes show different behavior (Polymorphism)
-for emp in [Developer(), Tester(), Employee()]:
-    emp.role()
+# for emp in [Developer(), Tester(), Employee()]:
+#     emp.role()
